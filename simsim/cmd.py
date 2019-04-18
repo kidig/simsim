@@ -17,11 +17,11 @@ def main():
     print('Similarity: {:.2f}'.format(result.get('ratio', 0)))
 
     for n, s in result.get('scopes', {}).items():
-        label = f'\n{file_a.name}:{n}'
+        label = '\n{}:{}'.format(file_a.name, n)
         print(label)
         print('-'*(len(label)-1))
         for func, sim in sorted(s, key=operator.itemgetter(1), reverse=True):
-            print(f'{file_b.name}:{func}: {sim:.2f}')
+            print('{}:{}: {:.2f}'.format(file_b.name, func, sim))
 
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 # simsim
 
-[![Build Status](https://travis-ci.org/kidig/simsim.svg?branch=master)](https://travis-ci.org/kidig/simsim) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/simsim.svg)
+[![Build Status](https://travis-ci.org/kidig/simsim.svg?branch=master)](https://travis-ci.org/kidig/simsim) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/simsim.svg) ![PyPI](https://img.shields.io/pypi/v/simsim.svg)
 
 SIMple SIMilarity is a tool by which you can check the similarity of two sources written in Python. 
 The tool is created for checking small pieces of source code that students submit as solutions for the task. 
